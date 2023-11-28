@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SirenApp", "SirenApp\SirenApp.csproj", "{46425C7E-77EB-4570-89E5-91F42D0B1EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SirenApp.tests", "SirenApp.tests\SirenApp.tests.csproj", "{3971C80C-ECBC-4124-AE6F-BF62DC025488}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46425C7E-77EB-4570-89E5-91F42D0B1EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46425C7E-77EB-4570-89E5-91F42D0B1EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46425C7E-77EB-4570-89E5-91F42D0B1EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46425C7E-77EB-4570-89E5-91F42D0B1EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3971C80C-ECBC-4124-AE6F-BF62DC025488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3971C80C-ECBC-4124-AE6F-BF62DC025488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3971C80C-ECBC-4124-AE6F-BF62DC025488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3971C80C-ECBC-4124-AE6F-BF62DC025488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03A7DAE2-CB18-438E-AF3D-565FC286AB60}
+	EndGlobalSection
+EndGlobal
