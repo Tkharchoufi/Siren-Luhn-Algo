@@ -1,4 +1,6 @@
-﻿namespace SirenApp.Services.Crypto
+﻿using SirenApp.Helpers;
+
+namespace SirenApp.Services.Crypto
 {
     public class LuhnAlgoService : ILuhnAlgoService
     {

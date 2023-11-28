@@ -1,4 +1,4 @@
-﻿namespace SirenApp
+﻿namespace SirenApp.Helpers
 {
     static class Helper
     {

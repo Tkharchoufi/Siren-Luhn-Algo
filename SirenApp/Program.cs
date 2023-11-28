@@ -19,16 +19,6 @@ catch (Exception e)
 }
 
 
-try
-{
-    services.GetRequiredService<App>().Run(args);
-}
-catch (Exception e)
-{
-    Console.WriteLine(e.Message);
-}
-
-
 IHostBuilder CreateHostBuilder(string[] strings)
 {
     return Host.CreateDefaultBuilder()
