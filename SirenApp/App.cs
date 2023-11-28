@@ -4,9 +4,9 @@ namespace SirenApp
 {
     public class App
     {
-        private readonly IAmTheTest _amTheTest;
+        private readonly ISirenService _amTheTest;
 
-        public App(IAmTheTest amTheTest)
+        public App(ISirenService amTheTest)
         {
             _amTheTest = amTheTest;
         }

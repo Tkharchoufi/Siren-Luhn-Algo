@@ -34,7 +34,7 @@ IHostBuilder CreateHostBuilder(string[] strings)
     return Host.CreateDefaultBuilder()
         .ConfigureServices((_, services) =>
         {
-            services.AddTransient<IAmTheTest, AmTheTest>();
+            services.AddTransient<ISirenService, SirenService>();
             services.AddTransient<ILuhnAlgoService, LuhnAlgoService>();
             services.AddSingleton<App>();
         });

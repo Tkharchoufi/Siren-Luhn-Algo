@@ -2,11 +2,11 @@
 
 namespace SirenApp.Services.Siren
 {
-    public class AmTheTest : IAmTheTest
+    public class SirenService : ISirenService
     {
         private readonly int _validSirenLength = 9;
         private readonly ILuhnAlgoService _luhnService;
-        public AmTheTest(ILuhnAlgoService luhnService)
+        public SirenService(ILuhnAlgoService luhnService)
         {
             _luhnService = luhnService;
         }

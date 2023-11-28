@@ -6,16 +6,16 @@ namespace SirenApp.tests
 {
     public class SirenTests
     {
-        private readonly IAmTheTest _iAmTheTest;
+        private readonly ISirenService _iAmTheTest;
         public SirenTests()
         {
             var services = new ServiceCollection();
-            services.AddTransient<IAmTheTest, AmTheTest>();
+            services.AddTransient<ISirenService, SirenService>();
             services.AddTransient<ILuhnAlgoService, LuhnAlgoService>();
 
             var serviceProvider = services.BuildServiceProvider();
 
-            _iAmTheTest = serviceProvider.GetService<IAmTheTest>();
+            _iAmTheTest = serviceProvider.GetService<ISirenService>();
         }
 
         [Theory]

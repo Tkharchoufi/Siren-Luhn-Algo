@@ -1,6 +1,6 @@
 ﻿namespace SirenApp.Services.Siren
 {
-    public interface IAmTheTest
+    public interface ISirenService
     {
         bool CheckSirenValidity(string siren);
         string ComputeFullSiren(string sirenWithoutControlNumber);
